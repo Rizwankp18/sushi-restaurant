@@ -1,0 +1,207 @@
+*{
+    
+  font-family: "DM Sans", sans-serif;
+  
+  font-style: normal;
+}
+#nav-bar{
+    width: 100%; /*Plasce the child tags in one line */
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center; /*place the child tag to vertically center*/
+    background-color:rgb(0, 0, 0) ;
+
+}
+#logo{
+   width: 100px;position: absolute;
+   padding-left: 50px;
+ 
+}
+#logos{
+    position: relative;
+}
+
+.list-item{
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+   
+}
+li a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+li a:hover{
+color: brown;
+text-decoration: underline;
+}
+#logos h1{
+  margin-top: 120px;
+  margin-left: 40px;
+  color: white;
+}
+.icons{
+  font-size: 30px ;
+  font-weight: 700;
+  display: none;
+  position: absolute;
+  right: 15%;
+  color: white;
+}
+#check{
+  display: none;
+}
+
+
+
+
+
+@media screen and (max-width:825px){
+    .icons{
+        display: flex;
+}
+#cancel{
+    display: none;
+}
+#navi{
+    display: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 50%;
+    top: 120px;
+left: 40%;
+  
+}
+#navi li{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+
+}
+#check:checked~ .icons #menu{
+  display: none;
+}
+#check:checked~ .icons #cancel{
+  display: block;
+}
+#check:checked~ #navi{
+  display: block;
+  height: 150px;
+
+}
+
+
+#navi li :hover{
+color: brown;
+text-decoration: underline;
+
+
+
+}
+
+.parent{
+  flex-wrap: wrap;
+}
+
+
+}
+
+
+/* menu */
+
+#title2{
+  background-color: aliceblue;
+  width: 100%;
+  height: 30px;
+  
+}
+#title2 h1{color: black;
+text-align: center;
+}
+
+
+
+
+
+
+.book1{
+
+width: 300px;
+height: 500px;
+background-color: rgb(0, 0, 0,0.3);
+margin: 35px;
+
+
+
+}
+
+
+
+
+
+
+#bookname{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+#des{
+    padding: 5px 10px;
+color: green;
+}
+ a{padding-left: 5px;}
+
+ 
+ 
+ #bts1{
+width: 120px;
+height: 40px;
+font-size: 18px;
+border-radius: 15px;
+
+background-color: black;
+color: white;
+margin-top: 10px;
+
+ }
+ #su1{
+  display: flex;
+  justify-content: space-around;
+ }
+ #su1 h3{
+  color: rgb(0, 0, 0);
+ }
+ #parent1{
+  display: flex;
+ }
+ #parent2{
+  display: flex;
+ }
+ .parent{
+  display: flex;
+  justify-content: space-evenly;
+ 
+ }
+
+ #back3{
+  background-color: aliceblue;
+
+  height: 300px;}
+  
+span{
+  
+  display: block;
+ margin-top: 10px;
+ margin-left:px;
+ text-align: center;
+
+}
+#back3 img{
+  margin-left: 46%;
+}

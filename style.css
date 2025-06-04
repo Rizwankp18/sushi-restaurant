@@ -1,0 +1,196 @@
+*{
+    
+  font-family: "DM Sans", sans-serif;
+  
+  font-style: normal;
+}
+#nav-bar{
+    width: 100%; /*Plasce the child tags in one line */
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center; /*place the child tag to vertically center*/
+    background-color:rgb(0, 0, 0) ;
+
+}
+#logo{
+   width: 100px;position: absolute;
+   padding-left: 50px;
+ 
+}
+#logos{
+    position: relative;
+}
+
+.list-item{
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+   
+}
+li a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+li a:hover{
+color: brown;
+text-decoration: underline;
+}
+#logos h1{
+  margin-top: 120px;
+  margin-left: 40px;
+  color: white;
+}
+.icons{
+  font-size: 30px ;
+  font-weight: 700;
+  display: none;
+  position: absolute;
+  right: 15%;
+  color: white;
+}
+#check{
+  display: none;
+}
+
+
+
+
+
+@media screen and (max-width:825px){
+    .icons{
+        display: flex;
+}
+#cancel{
+    display: none;
+}
+#navi{
+    display: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 50%;
+    top: 120px;
+left: 40%;
+  
+}
+#navi li{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+
+}
+#check:checked~ .icons #menu{
+  display: none;
+}
+#check:checked~ .icons #cancel{
+  display: block;
+}
+#check:checked~ #navi{
+  display: block;
+  height: 150px;
+
+}
+
+
+#navi li :hover{
+color: brown;
+text-decoration: underline;
+
+
+
+}
+
+#he1{
+    position: absolute;
+ left: -10%;
+    font-size: 60px;
+
+}
+#he2{
+    position: absolute;
+left: -10%;
+}
+#he3{
+    position: absolute;
+    left: -10%;
+top:200px;
+}
+
+#headiing p{
+    position: absolute;
+    left: -10%;
+  
+}
+#res a{
+ position: absolute;
+ top: 700px;
+ 
+}
+}
+/* Home */
+
+
+
+
+#image1{
+    background: url("https://st2.depositphotos.com/1592314/10316/i/950/depositphotos_103164196-stock-photo-asian-japanese-food-background.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+#back{
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 700px;
+}
+
+ #he1{
+    color: white;
+    font-size: 80px;
+  padding-top: 100px;
+   
+    position: absolute;
+    padding-left: 40%;
+}
+
+
+ #he2{
+    color: white;
+    font-size: 80px;
+ padding-top: 200px;
+   padding-left: 45%;
+position: absolute;}
+
+    #he3{
+        color: white;
+        font-size: 80px;
+        padding-top: 300px;
+        padding-left: 40%;
+        position: absolute;
+       
+    }
+
+    
+    
+    #headiing p{
+        color: white;
+        width: 500px;
+        padding-left: 40%;
+        padding-top: 480px;
+     
+    }
+
+    #res a{
+        text-decoration: none;
+        color: white;
+        background-color: red;
+        margin-left: 60%;
+      padding: 10px 20px;
+margin-top: 100px;
+border-radius: 20px;
+    }
